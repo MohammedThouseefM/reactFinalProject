@@ -155,7 +155,7 @@ const Dashboard = () => {
 
       {/* Attendance Statistics Cards */}
       <Grid container spacing={3} sx={{ mb: 4 }}>
-        <Grid item xs={12} sm={6} md={4}>
+        <Grid item xs={12} sm={6} md={4} sx={{ flexGrow: 1 }}>
           <StatCard 
             title="ONSITE (Full time)" 
             value={stats.onsiteFullTime.total} 
@@ -164,7 +164,7 @@ const Dashboard = () => {
             subtitle={`${stats.onsiteFullTime.present} present`} 
           />
         </Grid>
-        <Grid item xs={12} sm={6} md={4}>
+        <Grid item xs={12} sm={6} md={4} sx={{ flexGrow: 1 }}>
           <StatCard 
             title="ONSITE (Part time) (MERITH-CLG)" 
             value={stats.onsitePartTimeMerith.total} 
@@ -173,7 +173,7 @@ const Dashboard = () => {
             subtitle={`${stats.onsitePartTimeMerith.present} present`} 
           />
         </Grid>
-        <Grid item xs={12} sm={6} md={4}>
+        <Grid item xs={12} sm={6} md={4} sx={{ flexGrow: 1 }}>
           <StatCard 
             title="ONSITE (Part time) (OTHER-CLG)" 
             value={stats.onsitePartTimeOther.total} 
@@ -182,7 +182,7 @@ const Dashboard = () => {
             subtitle={`${stats.onsitePartTimeOther.present} present`} 
           />
         </Grid>
-        <Grid item xs={12} sm={6} md={4}>
+        <Grid item xs={12} sm={6} md={4} sx={{ flexGrow: 1 }}>
           <StatCard 
             title="Remote" 
             value={stats.remote.total} 
@@ -191,7 +191,7 @@ const Dashboard = () => {
             subtitle={`${stats.remote.present} present`} 
           />
         </Grid>
-        <Grid item xs={12} sm={6} md={4}>
+        <Grid item xs={12} sm={6} md={4} sx={{ flexGrow: 1 }}>
           <StatCard 
             title="TOTAL" 
             value={stats.total.total} 
@@ -200,7 +200,7 @@ const Dashboard = () => {
             subtitle={`${stats.total.present} present`} 
           />
         </Grid>
-        <Grid item xs={12} sm={6} md={4}>
+        <Grid item xs={12} sm={6} md={4} sx={{ flexGrow: 1 }}>
           <StatCard 
             title="ACTIVE (On site)" 
             value={stats.activeOnsite} 

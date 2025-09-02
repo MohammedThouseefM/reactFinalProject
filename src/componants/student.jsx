@@ -252,7 +252,7 @@ export default function StudentTable() {
           </Typography>
         </Paper>
         
-        <Paper sx={{ p: 2, textAlign: 'center', backgroundColor: '#e3f2fd' }}>
+        <Paper sx={{ p: 2, textAlign: 'center', backgroundColor: '#30404dff' }}>
           <Typography variant="h6" color="primary">TOTAL</Typography>
           <Typography variant="h4">{stats.total.total}</Typography>
           <Typography variant="body2" color="text.secondary">
@@ -260,7 +260,7 @@ export default function StudentTable() {
           </Typography>
         </Paper>
         
-        <Paper sx={{ p: 2, textAlign: 'center', backgroundColor: '#f3e5f5' }}>
+        <Paper sx={{ p: 2, textAlign: 'center', backgroundColor: '#4b3750ff' }}>
           <Typography variant="h6" color="primary">ACTIVE (On site)</Typography>
           <Typography variant="h4">{stats.activeOnsite}</Typography>
         </Paper>
